@@ -1,6 +1,7 @@
 # Dockerfile
-FROM golang:latest
-ENV SRC_DIR=/go/src/github.com/gouser/money-bot/api
+FROM golang:1.15
+
+ENV SRC_DIR=/go/src/github.com/gouser/money-boy/api
 ENV GOBIN=/go/bin
 
 # WORKDIR $GOBIN

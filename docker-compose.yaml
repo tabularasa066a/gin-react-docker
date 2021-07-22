@@ -25,7 +25,6 @@ services:
     volumes:
       - ./frontend:/frontend
     command:
-      # sh -c "sudo rm -rf frontend"
       sh -c "cd frontend && yarn start"
     ports:
       - "3000:3000"

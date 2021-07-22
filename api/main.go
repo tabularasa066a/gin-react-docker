@@ -1,8 +1,10 @@
 // main.go
 package main
 
-import "log"
+import (
+	"github.com/gouser/money-boy/api/app"
+)
 
 func main() {
-	log.Println("Start App....")
+	app.StartApp()
 }
