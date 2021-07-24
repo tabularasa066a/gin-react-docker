@@ -15,6 +15,7 @@ RUN go get github.com/go-sql-driver/mysql \
     && go get github.com/gorilla/mux \
     && go get -u github.com/jinzhu/gorm \
     && go get github.com/gin-contrib/cors \
-    && go get gopkg.in/ini.v1
+    && go get gopkg.in/ini.v1 \
+    && go get -u github.com/stretchr/testify
 
 ENTRYPOINT ["go", "run", "main.go"]
