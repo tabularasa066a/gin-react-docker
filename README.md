@@ -19,6 +19,7 @@ http://192.168.33.10:3000など
 
 ## トラブル対応
 - go: `github.com/gin-gonic/gin`のimportに際し`cannot find package`
+  -> goのversionをlatestではなく1.15に下げた
 
 ## 参考
 https://selfnote.work/20200506/programming/golang-with-gin/
